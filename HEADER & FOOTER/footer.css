@@ -1,0 +1,30 @@
+footer{
+    background-color: white;
+    font-style: 'Source Sans Pro Topnav', sans-serif;
+}
+.footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+}
+.footer-section p{
+    font-size: larger;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-section p img{
+    margin-left: 5px;
+}
+.footer-section p a{
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.footer-section p a:hover{
+    color: #72AEC8;
+}

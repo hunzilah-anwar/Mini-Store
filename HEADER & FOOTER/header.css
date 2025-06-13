@@ -1,0 +1,46 @@
+header{
+    background-color: white;
+    font-style: 'Source Sans Pro Topnav', sans-serif;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    width: 50%;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    position: relative;
+    transition: 0.2s;
+}
+header nav ul li a:hover{
+    color: #72AEC8;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+nav .fa{
+    display: none;
+}
