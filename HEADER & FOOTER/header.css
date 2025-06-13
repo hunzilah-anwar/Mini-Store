@@ -11,12 +11,12 @@ header nav{
     align-items: center;
 }
 header nav ul{
-    width: 50%;
-    padding-left: 0;
+    padding: 0;
+}
+header nav ul li{
+    display: inline-block;
     list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 10px 20px 10px 0px;
 }
 header nav ul li a{
     text-decoration: none;
@@ -41,6 +41,6 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
-nav .fa{
+nav .fa-solid, nav .fa{
     display: none;
 }

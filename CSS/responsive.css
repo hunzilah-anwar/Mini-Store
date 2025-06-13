@@ -4,25 +4,29 @@
         background-color: #000;
         color: white;
         position: fixed;
-        top: 0;
+        top: -9px;
         right: -200px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
+        padding-left: 40px;
         z-index: 2;
         transition: right 0.5s;
     }
-    header nav ul li{
+    header nav ul li a{
         display: block;
-        margin: 25px;
+        margin: 5px 50px 5px 0;
+        color: white;
+        
     }
     nav ul .fa{
+        display: block;
         position: absolute;
         top: 25px;
-        left: 25px;
+        left: 40px;
         cursor: pointer;
     }
-    nav .fa{
+    nav .fa-solid{
         display: block;
         color: white;
     }
