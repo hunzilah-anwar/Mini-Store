@@ -4,5 +4,5 @@
             sidemenu.style.right = '0';
         }
         function closeMenu(){
-            sidemenu.style.right = '-150px'
+            sidemenu.style.right = '-250px'
         }
