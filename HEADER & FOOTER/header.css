@@ -41,6 +41,11 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
-nav .fa-solid, nav .fa{
+nav ul .fa{
     display: none;
+}
+.nav-bar-icon{
+    display: none;
+    font-size: 50px;
+    font-weight: 1000;
 }
