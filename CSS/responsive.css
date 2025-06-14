@@ -138,7 +138,6 @@
     }
     .banner-img{
         width: 175px;
-        flex-grow: none;
     }
     .read-container-1{
         font-size: 20px;
@@ -199,12 +198,12 @@
         flex-basis: 100%;
         
     }
+    .section-14 i,.section-14 p{
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 425px){
-    section{
-        padding-right: 0;
-    }
     .section-1 p , .section-7 p{
         margin-top: 25px;
         font-size: 20px;
@@ -231,12 +230,22 @@
         flex-basis: 60%;
         width: 30%;
     }
-}    
+    .subscribe-content{
+        padding: 20px 5px;
+    } 
+    .email{
+        width: 200px;
+        height: 40px;
+        padding: 5px;
+    }
+    .sub-button{
+        width: 200px;
+        height: 40px;
+        font-size: medium;
+    }
+}   
 
 @media only screen and (max-width: 375px){
-    section{
-        padding-right: 25px !important;
-    }
     .btn{
         width: 80px;
         height: 20px;
@@ -255,6 +264,9 @@
 }
 
 @media only screen and (max-width: 320px){
+    .banner-img{
+        width: 120px;
+    }
     .section-7 p{
         margin-top: 30px;
         width: 90px !important;
